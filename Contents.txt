@@ -1,0 +1,21 @@
+<div className="">
+  {/* Inputs */}
+  {/* Input-container */}
+  <div className="w-full flex justify-center md:justify-between mx-auto mt-10 ">
+    {/* Inputs  */}
+    <div className=" flex  flex-col md:flex-row justify-center md:space-x-5 space-y-5 md:space-y-0 ">
+      <input
+        className="bg-bg p-2 px-3 font-aeonic border-b focus:outline-none w-[17rem]"
+        type="email"
+        placeholder="Email"
+        required
+      />
+      <input
+        className="bg-bg p-2 px-3 font-aeonic border-b focus:outline-none w-[17rem]"
+        type="password"
+        placeholder="Password"
+        required
+      />
+    </div>
+  </div>
+</div>;
